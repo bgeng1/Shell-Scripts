@@ -1,5 +1,7 @@
 #!/bin/sh
 
+#organises files in the current directory into categories based on size i.e lines
+
 #files=`ls`
 files=`find . -maxdepth 1 -type f | cut -c3- |sort`
 printf "Small files:"
